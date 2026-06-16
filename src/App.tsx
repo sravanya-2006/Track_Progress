@@ -1,10 +1,39 @@
-import { Calendar } from "lucide-react";
+import Header from "./components/Header";
+import StatCard from "./components/StatCard";
+
+import {
+  getDayProgress,
+  getWeekProgress,
+  getMonthProgress,
+  getYearProgress,
+} from "./utils/progress";
 
 function App() {
   return (
-    <div className="min-h-screen bg-black text-white flex flex-col items-center justify-center gap-4">
-      <Calendar size={50} />
-      <h1 className="text-3xl font-bold">TimeFlow</h1>
+    <div className="w-[380px] min-h-[550px] bg-zinc-950 text-white p-5">
+      <Header />
+
+      <div className="grid grid-cols-2 gap-4">
+        <StatCard
+          title="Day"
+          percentage={Number(getDayProgress().toFixed(1))}
+        />
+
+        <StatCard
+          title="Week"
+          percentage={Number(getWeekProgress().toFixed(1))}
+        />
+
+        <StatCard
+          title="Month"
+          percentage={Number(getMonthProgress().toFixed(1))}
+        />
+
+        <StatCard
+          title="Year"
+          percentage={Number(getYearProgress().toFixed(1))}
+        />
+      </div>
     </div>
   );
 }

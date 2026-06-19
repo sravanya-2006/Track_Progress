@@ -253,6 +253,29 @@ The focus is not on productivity for productivity's sake.
 The focus is on intentional progress.
 
 ---
+## Architecture
+
+```mermaid
+flowchart TD
+
+    User[User]
+
+    User --> TimeFlow[TimeFlow Extension]
+
+    TimeFlow --> Tasks[Tasks]
+    TimeFlow --> Notes[Notes]
+    TimeFlow --> Vision[Vision Board]
+    TimeFlow --> Heatmap[Heatmap]
+    TimeFlow --> Analytics[Analytics]
+
+    Tasks --> Storage[Browser Local Storage]
+    Notes --> Storage
+    Vision --> Storage
+    Heatmap --> Storage
+    Analytics --> Storage
+
+    Storage --> Dashboard[Dashboard & Progress Tracking]
+```
 
 # Design Principles
 

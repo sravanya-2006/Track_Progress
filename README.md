@@ -32,6 +32,8 @@ TimeFlow is a lightweight productivity operating system built around a simple id
 
 > Small actions repeated consistently create extraordinary results.
 
+![HeroPage](./screenshots/00_hero_banner.png)
+
 Unlike traditional task managers that focus only on completing to-do lists, TimeFlow combines task management, streak tracking, contribution heatmaps, time visualization, analytics, daily reflection, and vision boards into a single distraction-free experience.
 
 The goal is not just to help users finish tasks.
@@ -192,35 +194,47 @@ The Vision Board acts as a daily reminder of why consistency matters.
 
 # Screenshots
 
-## Dashboard
+A quick look at TimeFlow's core productivity workflow.
 
-![Dashboard](./assets/screenshots/dashboard.png)
+<table>
+<tr>
+
+<td align="center">
+<img src="./screenshots/01_overview.png" height="380"/>
+<br/>
+<b>Overview</b>
+</td>
+
+<td align="center">
+<img src="./screenshots/02_todays_tasks.png" height="380"/>
+<br/>
+<b>Today's Tasks</b>
+</td>
+
+<td align="center">
+<img src="./screenshots/03_weekly_progress.png" height="380"/>
+<br/>
+<b>Weekly Analytics</b>
+</td>
+
+<td align="center">
+<img src="./screenshots/04_consistency.png" height="380"/>
+<br/>
+<b>Consistency</b>
+</td>
+
+<td align="center">
+<img src="./screenshots/05_vision_board.png" height="380"/>
+<br/>
+<b>Vision Board</b>
+</td>
+
+</tr>
+</table>
 
 ---
 
-## Today's Tasks
 
-![Tasks](./assets/screenshots/tasks.png)
-
----
-
-## Weekly Analytics
-
-![Analytics](./assets/screenshots/analytics.png)
-
----
-
-## Productivity Heatmap
-
-![Heatmap](./assets/screenshots/heatmap.png)
-
----
-
-## Vision Board
-
-![Vision Board](./assets/screenshots/vision-board.png)
-
----
 
 # Product Vision
 

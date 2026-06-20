@@ -446,6 +446,109 @@ src/
 * Browser Local Storage API
 
 ---
+# Chrome Extension Installation
+
+TimeFlow can be installed manually in Google Chrome using Developer Mode.
+
+### Step 1 — Download
+
+Download the latest release:
+
+```text
+TimeFlow-v1.0.zip
+```
+
+from the Releases page.
+
+### Step 2 — Extract
+
+Extract the ZIP file to a folder on your computer.
+
+You should see files similar to:
+
+```text
+manifest.json
+index.html
+assets/
+logo/
+```
+
+### Step 3 — Open Chrome Extensions
+
+Navigate to:
+
+```text
+chrome://extensions
+```
+
+### Step 4 — Enable Developer Mode
+
+Turn on **Developer Mode** using the toggle in the top-right corner.
+
+### Step 5 — Load Extension
+
+Click:
+
+```text
+Load unpacked
+```
+
+and select the extracted TimeFlow folder.
+
+### Step 6 — Pin TimeFlow
+
+Click the Extensions icon in Chrome and pin **TimeFlow** for quick access.
+
+### Step 7 — Start Tracking
+
+Open TimeFlow and begin:
+
+* Managing tasks
+* Tracking streaks
+* Monitoring progress
+* Building consistency
+* Maintaining your vision board
+
+---
+
+### Updating TimeFlow
+
+When a new version is released:
+
+1. Download the latest release.
+2. Replace the old extension files.
+3. Open:
+
+```text
+chrome://extensions
+```
+
+4. Click the **Reload** button on TimeFlow.
+
+Your locally stored data will remain intact.
+
+---
+
+### Troubleshooting
+
+#### Extension shows a blank screen
+
+Reload the extension from:
+
+```text
+chrome://extensions
+```
+
+and ensure you are using the latest release.
+
+#### Changes are not visible
+
+Click the **Reload** button in Chrome Extensions.
+
+#### Data is missing
+
+TimeFlow stores data locally in your browser. Avoid clearing browser storage if you want to preserve your progress.
+
 
 # Installation
 
